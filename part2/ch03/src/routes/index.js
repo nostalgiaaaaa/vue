@@ -19,8 +19,14 @@ const routes = [
   },
   {
     path: "/profile",
-    name: "MainPage",
     component: ProfilePage,
+    beforeEnter: (to, from, next) => {
+      if (localStorage.getItem("token")) {
+        next();
+      } else {
+        next("/login");
+      }
+    },
   },
 ];
 const router = new VueRouter({
