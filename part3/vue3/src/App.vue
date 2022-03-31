@@ -9,7 +9,7 @@ import "./assets/css/main.css";
 <template>
   <div>
     <img alt="Vue logo" src="./assets/kakao.png" />
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+    <HelloWorld msg="Nostalgia" />
     <Footer></Footer>
   </div>
 </template>
