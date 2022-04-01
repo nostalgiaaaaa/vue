@@ -1,5 +1,5 @@
 <template>
-  <h1>CI/CD</h1>
+  <h1>Nostalgia</h1>
   <button @click="loadData">load ok</button>
   <hr />
   <ul>
