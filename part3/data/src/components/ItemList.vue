@@ -1,5 +1,7 @@
 <template>
+  <h1>CI/CD</h1>
   <button @click="loadData">load ok</button>
+  <hr />
   <ul>
     <li v-for="(name, idx) in names" :key="idx">{{ name }}</li>
   </ul>
