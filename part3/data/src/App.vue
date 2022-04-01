@@ -6,7 +6,7 @@ import ItemList from './components/ItemList.vue';
 
 <template>
   <div>
-    <img alt="Vue logo" src="./assets/kakao.png" style="width: 100px" />
+    <img alt="Vue logo" src="./assets/kakao.png" style="width: 200px" />
     <ItemList></ItemList>
   </div>
 </template>
